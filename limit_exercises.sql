@@ -8,5 +8,10 @@ LIMIT 10;
 SELECT emp_no
 FROM salaries
 ORDER BY salary DESC
+limit 5;
+
+SELECT emp_no
+FROM salaries
+ORDER BY salary DESC
 limit 5
 offset 45;
