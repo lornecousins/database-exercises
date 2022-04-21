@@ -113,7 +113,7 @@ FROM employees
          JOIN salaries ON employees.emp_no = salaries.emp_no;
 
 # or
-#Join using the USING keyword - only available when the column you are hoining on has the SAME NAME in both tables
+#Join using the USING keyword - only available when the column you are joining on has the SAME NAME in both tables
 SELECT employees.last_name AS name, salaries.salary AS salary
 FROM employees
          JOIN salaries USING (emp_no);
